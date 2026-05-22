@@ -1,0 +1,74 @@
+/* Центрирование страницы */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Блок калькулятора */
+.calculator {
+    background: #ffffff;
+    padding: 25px;
+    width: 340px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Заголовок */
+.title {
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Поля ввода */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Блок кнопок */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Кнопки */
+button {
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #357ABD;
+}
+
+/* Результат */
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #222;
+}
